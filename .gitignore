@@ -1,0 +1,38 @@
+# --- Java & Build Artifacts ---
+# Ignore compiled class files and artifacts produced by building the project
+*.class
+target/
+*.jar
+*.war
+*.ear
+
+# --- IDE Specific Files (IntelliJ, Eclipse, VS Code) ---
+# Ignore workspace settings and project configurations that vary between developers
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+bin/
+out/
+
+# --- Mobile & Android Specific ---
+# Ignore local environment properties and large binary application files
+local.properties
+*.apk
+*.ap_
+*.dex
+captures/
+
+# --- OS Specific (Windows) ---
+# Ignore system-generated files on Windows
+Thumbs.db
+desktop.ini
+
+# --- Logs & Test Reports ---
+# Ignore execution logs and generated test reports to keep repo clean
+*.log
+appium-server.log
+test-output/
+surefire-reports/
