@@ -13,6 +13,7 @@ public class ActivateApplication {
 
 	@Test
 	public void testToActivateApplication() throws MalformedURLException, URISyntaxException, InterruptedException {
+		
 		// Path to the Android application (.apk)
 		String apkPath = System.getProperty("user.dir") + "//src//test//resources//ApiDemos-debug.apk";
 		
